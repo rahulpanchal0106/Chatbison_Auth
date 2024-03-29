@@ -30,6 +30,7 @@ function App() {
 
   return (
     <>
+      <div className='bg-red-600 text-white p-6 rounded-2xl mb-5'>Currently in the development phase</div>
       <div className='container rounded-2xl p-5 w-1/2 backdrop-blur-md flex flex-col gap-2'>
         <input type='email' placeholder='Email' required className='bg-black text-white p-6 rounded-2xl' onChange={(e)=>handleEmail(e)} />
         <input type='password' placeholder='Password' required className='bg-black text-white p-6 rounded-2xl' onChange={(e)=>handlePassword(e)} />
