@@ -10,10 +10,10 @@ function App() {
       email: email,
       password: password
     }).toString()
-    fetch(`http://chatbison.onrender.com/userLogin?${queryParams}`).then(res=>{
+    fetch(`https://chatbison.onrender.com/userLogin?${queryParams}`).then(res=>{
       if(res.ok){
         console.log("Login sucessfull")
-        window.location.assign('http://chatbison.onrender.com')
+        window.location.assign('https://chatbison.onrender.com')
       }else{
         console.log("Login failed")
       }
