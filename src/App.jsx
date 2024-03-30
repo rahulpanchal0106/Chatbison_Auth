@@ -20,7 +20,7 @@ function App() {
         <LogIn/>:
         <SignUp/>
       }
-      <div className='p-6 text-white rounded-2xl bg-black mt-5'>{account?"Not an account? ":"Already an Account? "} <button onClick={(e)=>handleAccount(e)} className='text-blue-500 decoration-blue-500 underline underline-offset-2' >{account?"SignUp":"LogIn"}</button></div>
+      <div className='p-6 text-white rounded-2xl bg-black mt-5'>{account?"Don't have an account yet? ":"Already have an Account? "} <button onClick={(e)=>handleAccount(e)} className='text-blue-500 decoration-blue-500 underline underline-offset-2' >{account?"SignUp":"LogIn"}</button></div>
     </>
   )
 }
